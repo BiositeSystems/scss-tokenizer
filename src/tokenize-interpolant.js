@@ -102,9 +102,10 @@ export default function tokenize(input, l, p) {
                 break;
 
             case closeCurly:
+                tokens.push(['endInterpolant', '}', line, pos - offset]);
+
                 if (inInterpolant) {
                     inInterpolant = false;
-                    tokens.push(['endInterpolant', '}', line, pos - offset]);
                 } else {
                     break loop;
                 }

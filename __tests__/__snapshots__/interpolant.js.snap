@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interpolant should tokenize an interpolant 1`] = `
+Array [
+  Array [
+    "*",
+    "*",
+    1,
+    1,
+  ],
+  Array [
+    "space",
+    " ",
+  ],
+  Array [
+    "{",
+    "{",
+    1,
+    3,
+  ],
+  Array [
+    "newline",
+    "
+",
+    2,
+    0,
+  ],
+  Array [
+    "space",
+    "	",
+  ],
+  Array [
+    "ident",
+    "background-image",
+    2,
+    2,
+    2,
+    17,
+  ],
+  Array [
+    ":",
+    ":",
+    2,
+    18,
+  ],
+  Array [
+    "space",
+    " ",
+  ],
+  Array [
+    "ident",
+    "url",
+    2,
+    20,
+    2,
+    22,
+  ],
+  Array [
+    "(",
+    "(",
+    2,
+    23,
+  ],
+  Array [
+    "\\"",
+    "\\"",
+    2,
+    24,
+  ],
+  Array [
+    "startInterpolant",
+    "#{",
+    2,
+    30,
+  ],
+  Array [
+    "$",
+    "$",
+    2,
+    31,
+  ],
+  Array [
+    "ident",
+    "file-1x",
+    2,
+    32,
+    2,
+    38,
+  ],
+  Array [
+    "endInterpolant",
+    "}",
+    2,
+    39,
+  ],
+  Array [
+    "\\"",
+    "\\"",
+    2,
+    40,
+  ],
+  Array [
+    ")",
+    ")",
+    2,
+    37,
+  ],
+  Array [
+    ";",
+    ";",
+    2,
+    38,
+  ],
+  Array [
+    "newline",
+    "
+",
+    3,
+    0,
+  ],
+  Array [
+    "}",
+    "}",
+    3,
+    1,
+  ],
+  Array [
+    "newline",
+    "
+",
+    4,
+    0,
+  ],
+]
+`;
